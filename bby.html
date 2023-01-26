@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let sapii = [
+            {
+                nama : 'arin',
+                jumlahkaki : 4,
+                menyapa : function(){
+                    return 'haloo, namaku  '+this.nama+' , mooo';
+                }
+            },
+
+            { 
+                nama : 'dekol',
+                jumlahkaki : 4,
+                menyapa : function(){
+                    return 'haloo, namaku '+this.nama+' , mooo';
+                }
+            }
+
+
+        ]
+
+        document.write(sapii[0].menyapa())
+    </script>
+</body>
+</html>
